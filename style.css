@@ -1,0 +1,341 @@
+*{
+    padding :0;
+    margin: 0;
+    font-family: '\f042';
+}
+body{
+    background-color: #e1dfdf;
+}
+.formulaire_général{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    border-color: #17a045;
+    border-style: dashed;
+    border-width: 2px;
+    width: 90%;
+
+}
+.creation_connection_compte{
+    text-align: center;
+    height: 60px;
+    margin-left: 0.3%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+}
+h1{
+    color: #fff;
+    height: 100px;
+}
+.formulaire_contenaire1,
+        .formulaire_contenaire2 {
+            width: 45%;
+            display: inline-block;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+            align-items: right;
+        }
+div.nom_utilisateur{
+    text-align: center;
+    align-items: right;
+}
+        .formulaire_input_label1  {
+            border-right: 3px solid green;
+            margin-top: 20px;
+            /* padding: 5px; */
+            margin: 5px; 
+        }
+        .formulaire_input_label2{
+            text-align: left;
+        }
+    .labelle{
+        margin-left: 38px;
+    }
+        .formulaire_contenaire2 {
+            margin-top: 80px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        h3{
+            text-align: left;
+        }
+
+        .formulaire_input_label {
+            text-align: left;
+        
+            
+        }
+ .nom_connect_utilisateur label{
+            display: block;
+        }
+        label {
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 6px;
+            text-align: left;
+            padding-right: 10px;
+
+        }
+ .adresse_email{
+    display: flex;
+            margin-top: 10px;
+            margin-bottom: 6px;
+}
+        input {
+            width: 50%;
+            margin-top: 5px;
+            margin: 10px;
+            padding: 5px;
+            outline: 0;
+            border: 1px solid rgba(0,0,0,0.4);
+            justify-content: right;
+        }
+        .label_connection{
+            margin-left: 10px;
+        }
+        .submit1{
+       
+            width: 40%;
+
+        }
+        .submit2{
+       
+            width: 30%;
+
+        }
+        .submit2 .sumit{
+            /* padding: 10px; */
+            width: 55%;
+            margin-right: 10px;
+        }
+         .inputtype{
+            width: 70%;
+            padding-left: 90px;
+        }
+
+        .inpute{
+            width: 40%;
+            padding-left: 90px;
+        }
+        input:focus{
+            border: 1px  solid #17a045;
+        }
+   input[type="submit"]{
+    margin-top: 15px;
+    background-color: green;
+    color: #fff;
+    border: 1px solid #17a045;
+    cursor: pointer;
+   }
+
+
+   /* gestion des tache */
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.lop {
+    margin-left: 19%;
+}
+
+.navbar {
+    background-color: green;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.task-container {
+    text-align: left;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.leye {
+    color: rgb(251, 246, 246);
+}
+
+.task-container h1 {
+    font-size: 24px;
+}
+
+.task-container p {
+    font-size: 16px;
+}
+
+.task-container .inline-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-container .inline-elements p {
+    margin: 0;
+    color: red; /* Change text color to red */
+}
+.task-container .inline-elements .paragraph{
+    color: green;
+}
+.task-container button {
+    background-color: green;
+    color: rgb(246, 244, 244);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional CSS for new task elements */
+.task-container + .task-container {
+    margin-top: 20px;
+}
+
+.lp {
+    margin-top: 10px;
+    color: black;
+}
+
+.add-task {
+    text-align: left;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.add-task h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.add-task label {
+    display: block;
+    margin-top: 10px;
+}
+
+.add-task select,
+.add-task input[type="text"],
+.add-task textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e3e3;
+    border-radius: 5px;
+}
+
+.add-task button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* detailtache */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: green;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.task-details {
+    text-align: left;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.task-details h1 {
+    font-size: 24px;
+    margin: 5px;
+    padding: 15px;
+    height: 80px;
+}
+
+.task-details p {
+    font-size: 16px;
+    
+}
+
+.task-details .inline-elements {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10px;
+}
+
+.task-details .inline-elements p {
+    margin: 5px;
+    height: 100px;
+}
+
+.task-details button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: left;
+}
+.button-retour {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.priority {
+    color: red;
+}
+
+.status {
+    color: green;
+    margin-left: 10px;
+    
+    
+}
+
+/* Style des messages d'erreur */
+.error-message {
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 10px;
+    max-width: 200px;
+}
